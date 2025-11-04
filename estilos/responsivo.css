@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*versão tablet*/
+
+@media screen and (min-width:768px) {
+
+    .sobre texto h1 {
+
+    }
+    .sobre-conteudo {
+        flex-wrap: nowrap;
+    }
+
+    .sobre .imagem img {
+        display: block;
+        width: 250px;
+        height: 250px;
+    }
+
+    .sobre .habilidades {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sobre .texto h1 {
+        font-size: 1.4em;
+    }
+
+    .sobre .texto p {
+        font-size: 0.94em;
+    }
+
+    .sobre .texto {
+        max-width: 70%;
+    }
+}
