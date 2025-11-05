@@ -3,6 +3,14 @@
 /*versão tablet*/
 
 @media screen and (min-width:768px) {
+
+    .imagem-topo img {
+        display: none;
+    }
+
+   .imagem-topo .habilidades {
+    display: none;
+   }
     .texto h1 {
         font-size: 2em;
     }
