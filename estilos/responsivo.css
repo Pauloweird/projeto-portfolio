@@ -4,9 +4,7 @@
 
 @media screen and (min-width:768px) {
 
-    .sobre texto h1 {
-
-    }
+    
     .sobre-conteudo {
         flex-wrap: nowrap;
     }
@@ -33,5 +31,17 @@
 
     .sobre .texto {
         max-width: 70%;
+    }
+
+    .projeto-info h1 {
+        font-size: 1.4em;
+    }
+
+    .projeto-info p {
+        font-size: 0.94em;
+    }
+    .projeto-info {
+        max-width: 70%;
+        padding: 10px;
     }
 }
