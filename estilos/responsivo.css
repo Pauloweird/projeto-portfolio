@@ -3,7 +3,9 @@
 /*versão tablet*/
 
 @media screen and (min-width:768px) {
-
+    .texto h1 {
+        font-size: 2em;
+    }
     
     .sobre-conteudo {
         flex-wrap: nowrap;
@@ -18,30 +20,23 @@
     .sobre .habilidades {
         display: block;
     }
+
+    .container-proj {
+        display: block;
+    }
+
+    
 }
 
-@media screen and (max-width: 768px) {
-    .sobre .texto h1 {
-        font-size: 1.4em;
+@media screen and (min-width: 992px) {
+    .texto h1 {
+        text-align: center;
     }
 
-    .sobre .texto p {
-        font-size: 0.94em;
+    .texto p {
+        text-align: center;
+        font-size: 1.2em;
+        
     }
 
-    .sobre .texto {
-        max-width: 70%;
-    }
-
-    .projeto-info h1 {
-        font-size: 1.4em;
-    }
-
-    .projeto-info p {
-        font-size: 0.94em;
-    }
-    .projeto-info {
-        max-width: 70%;
-        padding: 10px;
-    }
 }

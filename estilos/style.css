@@ -79,18 +79,19 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-.sobre .texto h1 {
+.texto h1 {
     font-family: var(--fonte-principal);
     flex: 1;
     min-width: 280px;
-    font-size: 2em;
+    font-size: 1.4em;
     color: var(--cor-secundaria);
     margin-bottom: 20px;
+    
 }
 
-.sobre .texto p {
+.texto p {
     margin-bottom: 10px;
-    font-size: 1.1em;
+    font-size: 0.94em;
     line-height: 1.6;
 }
 
@@ -128,23 +129,20 @@ nav a:hover {
 
 /* projeto-info*/
 
-.projeto-info {
+
+.container-proj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+    flex-wrap: wrap;
     padding: 10px;
 }
 
-.projeto-info h1{
-    font-family: var(--fonte-principal);
-    flex: 1;
-    min-width: 280px;
-    font-size: 2em;
-    color: var(--cor-secundaria);
-    margin-bottom: 20px;
-}
-
-.projeto-info p {
-    margin-bottom: 10px;
-    font-size: 1.1em;
-    line-height: 1.6;
+.projeto-info {
+    padding: 10px;
+    max-width: 70%;
 }
 
 ul.tags {
