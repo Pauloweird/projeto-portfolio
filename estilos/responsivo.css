@@ -2,6 +2,10 @@
 
 /*versão tablet*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 @media screen and (min-width:768px) {
 
     .imagem-topo img {
@@ -11,17 +15,18 @@
    .imagem-topo .habilidades {
     display: none;
    }
-    .texto h1 {
+    .texto h2 {
         font-size: 2em;
     }
     
     .sobre-conteudo {
         flex-wrap: nowrap;
+        justify-content: center;
     }
 
     .sobre .imagem img {
         display: block;
-        width: 300px;
+        max-width: 300px;
         height: 300px;
         margin-left: 30px;
     }
@@ -38,7 +43,7 @@
 }
 
 @media screen and (min-width: 992px) {
-    .texto h1 {
+    .texto h2 {
         text-align: center;
     }
 

@@ -16,10 +16,12 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-principal);
     background-color: var(--cor-fundo);
     line-height: 1.6;
 }
+
+/* ================= Header ================= */
 
 header {
     text-align: center;
@@ -34,6 +36,7 @@ header h1 {
     width: 100%;
     margin-bottom: 10px;
 }
+
 
 header p {
     font-family: Arial, Helvetica, sans-serif;
@@ -78,11 +81,15 @@ nav a:hover {
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.295);
 }
 
-/* Sobre mim*/
+/* ============== Sobre Mim ================ */
 
 .sobre {
     background-color: #fff;
     padding: 60px 10px;
+}
+
+.sobre, #projetos {
+    background-color: #fafafa;
 }
 
 .sobre-conteudo {
@@ -95,7 +102,7 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-.texto h1 {
+.texto h2 {
     font-family: var(--fonte-principal);
     flex: 1;
     min-width: 280px;
@@ -104,6 +111,7 @@ nav a:hover {
     margin-bottom: 20px;
     
 }
+
 
 .texto p {
     margin-bottom: 10px;
@@ -133,13 +141,11 @@ nav a:hover {
     box-shadow: 0 0 20px #001dfa50;
 }
 
-.imagem p {
-    margin-top: 10px;
-    font-weight: 500;
+.imagem .habilidades {
+    display: none;
 }
 
-/* projeto-info*/
-
+/* ============== Projetos ================= */
 
 .container-proj {
     display: flex;
@@ -174,10 +180,10 @@ div#imagem {
     display: flex;
     gap: 20px;
     justify-content: center;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
     padding-bottom: 10px;
     margin-bottom: 30px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
 
 div#imagem::-webkit-scrollbar {
@@ -203,10 +209,10 @@ div#imagem img:hover {
 }
 
 div#botoes {
+    display: flex;
     justify-content: center;
     font-size: 1.1em;
     font-family: var(--fonte-principal);
-    display: flex;
     gap: 15px;
 }
 
