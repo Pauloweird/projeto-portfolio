@@ -72,6 +72,11 @@ nav a:hover {
     transition: transform 0.3s ease;
 }
 
+.imagem-topo img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.295);
+}
+
 /* Sobre mim*/
 
 .sobre {
@@ -109,7 +114,7 @@ nav a:hover {
     display: none;
     font-weight: 600;
     color: var(--cor-principal);
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 /* Imagem / Habilidades*/
@@ -130,6 +135,7 @@ nav a:hover {
 
 .sobre .imagem img:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 20px #001dfa50;
 }
 
 .imagem p {
