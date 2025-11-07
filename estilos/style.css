@@ -108,8 +108,7 @@ nav a:hover {
     min-width: 280px;
     font-size: 1.4em;
     color: var(--cor-secundaria);
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px; 
 }
 
 
@@ -236,16 +235,9 @@ section#contato {
     background: linear-gradient(to top, var(--cor-principal), #4195FA);
     text-align: center;
     margin-top: 20px;
+    padding-bottom: 35px;
 }
 
-section#contato h1 {
-    font-family: var(--fonte-principal);
-    font-size: 1.4em;
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 #contato .links a{
     background-color: white;
@@ -266,6 +258,7 @@ section#contato h1 {
 
 
 footer {
+    border-top: 2px solid white;
     background-color: var(--cor-principal);
     padding: 20px;
 }
