@@ -42,6 +42,7 @@ html {
     
 }
 
+/*Versão para telas maiores*/
 @media screen and (min-width: 992px) {
     .texto h2 {
         text-align: center;
